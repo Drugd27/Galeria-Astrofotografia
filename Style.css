@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+html {
+	background-image: url("tlo.png");
+}
+
+#headerTitle {
+	font-size: 4em;
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+	color: #2018b9;
+
+	border-style: ridge;
+	border-width: 15px;
+	border-color: #110B70;
+
+	background-color: #12104e;
+	background-image: url("kosmos3.jpg");
+ }
+/*--------------------------------------- ELEMENT Z MENU ---------------------------------------*/
+
+ .menu {
+	height: 200px;
+	width: 75%;
+	margin: auto;
+	padding: 0;
+	position: relative;
+
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #110B70;
+
+	background-color: #232D8B;
+	
+ }
+
+ #menuTitle {
+	color: #108f8f;
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+	font-weight: bold;
+
+	background-color: #232D8B;
+ }
+
+ #menuNote {
+	color: #108f8f;
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+	font-weight: bold;
+
+	list-style-type: square;
+
+	background-color: #232D8B;
+ }
+
+ #menuNoteLink {
+	color:#18bbbb;
+	background-color: #232D8B;
+ }
+
+/*--------------------------------------- ELEMENT Z PRZYCISKAMI ---------------------------------------*/
+ 
+ #buttonHeader {
+	font-size: 30px;
+	background-color: #232D8B;
+
+	text-align: center;
+ }
+
+ #filter {
+	background-color: #232D8B;
+	margin: auto;
+	width: 60%;
+
+	text-decoration-color: #12315e ;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+ }
+
+ .buttons {
+	height: 150px;
+	width: 60%;
+	margin: auto;
+	position: relative;
+
+	font-family: "Audiowide", sans-serif;
+	color: #108f8f;
+
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #110B70;
+
+	background-color: #232D8B;
+
+ }
+ 
+ .center {
+	margin: auto;
+	background-color: #232D8B;
+	width: 50%;
+	
+	
+ }
+
+ .bttn {
+	color: #016d6d;
+	background-color: #12315e;
+
+	border-color: #110B70;
+	border-width: 3px;
+
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Courier New', Courier, monospace;
+
+	cursor: pointer;
+ }
+
+ .bttn:hover {
+	background-color: #265252;
+}
+ .bttn:active {
+	background-color: #108f8f;
+}
+
+ /*--------------------------------------- ELEMENT Z OBRAZAMI ---------------------------------------*/
+
+ h4 {
+	color: #108f8f;
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+
+	height: 50px;
+	background-color: #000000;
+
+	padding: 15px;	
+
+ }
+
+ img {
+	width: 250px;
+	height: 300px;
+ }
+
+ .images {
+	width: 70%;
+	margin: auto;
+	position: relative;
+	padding: 5px;
+
+	border-style: ridge;
+	border-width: 8px;
+	border-color: #070b0e;
+
+	background-color: black;
+
+ }
+
+ .images:after {
+	content: "";
+	display: table;
+	clear: both;
+ }
+
+ .column {
+	float: left;
+	width: 25%;
+	height: 50%;
+ }
+
+ .content {
+	background-color: #000314;
+	padding: 10px;
+ }
+
+ .content.hide {
+	display: none;
+ }
+
+ .show {
+	display: block;
+ }
+
+ /*--------------------------------------- ELEMENT Z ANIMACJAMI ---------------------------------------*/
+
+ .zoom {
+	transition: transform .2s; /* Animation */
+ }
+ .zoom:hover {
+	transform: scale(2.25);
+ }
