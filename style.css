@@ -195,5 +195,5 @@ html {
 	transition: transform .2s; /* Animation */
  }
  .zoom:hover {
-	transform: scale(2.25);
+	transform: scale(2);
  }
